@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display:900|Roboto');
+
+html {
+  scroll-behaviour: smooth;
+  box-sizing: border-box;
+  background-color: #201A23;
+  color: #FDFDFD;
+  font-family: roboto;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+h2, h3, h4{
+	color: #C9C2EA;
+	font-size: 15px;
+	font-weight: 400;
+	margin-left: 5%;
+	margin-right: 15%;
+}
+h3{
+	font-size: 19px;
+	color: #FCF2C2;
+	font-family: playfair display;
+}
+h4{
+	font-size: 13px;
+}
+
+.gridcontainer{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-areas:"navigation"
+									  "header"
+									  "introduction"
+									  "projects"
+									  "footer"
+}
+
+/*NAVIGATION*/
+nav{
+	grid-area: navigation;
+	list-style: none;
+	text-align: center;
+	height: 100%;
+	width: 0;
+	position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(130,118,201,0.95);
+    overflow-x: hidden;
+	/*font-family: open sans;*/
+    transition: 0.5s;
+}
+
+h5{
+	display: inline-block;
+	color: rgb(130,118,201);
+	font-family: playfair display;
+	font-weight: 900;
+	font-size: 35px;
+	margin-left: 5%;
+}
+
+ul{
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+}
+
+li{
+	margin: 5%;
+	font-size: 30px;
+}
+
+a{
+	color: #FDFDFD;
+	text-decoration: none;
+	font-family: playfair display;
+}
+
+.fa-bars{
+	position: fixed;
+	color: rgba(130,118,201,0.95);
+	font-size: 30px;
+	top: 10px;
+	right: 5%;
+	z-index:0;
+}
+
+.closebtn{
+	font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+	margin-right: 6%;
+	z-index: 10;
+}
+
+/*HEADER*/
+main{
+	grid-area: header;
+	/*text styles*/
+	font-family: playfair display;
+	font-weight: 700;
+	font-size: 50px;
+	color: rgb(130,118,201);
+	margin: 5%;
+	margin-right: 15%;
+}
+
+.aboutmebutton{
+	display: none;
+}
+
+#triangle-right{
+    margin: 0 auto;
+    width: 100%;
+    height: 0;    
+    padding-left:100%;
+    padding-bottom: 5%;
+    overflow: hidden;
+}
+
+#triangle-right:after{
+	  display: block;
+	  content: "";
+      width: 0;
+      height: 0;
+	  background-color: #C9C2EA;
+	  margin-left: -1024px;
+      border-top: 50px solid #201A23;
+      border-right: 1024px solid transparent;
+}
+
+/*INTRODUCTION*/
+#aboutme header{
+	display: none;
+}
+header{
+	grid-area:  introduction;
+	background-color: #C9C2EA;
+	padding: 5%;
+	padding-right: 15%;
+	/*text styles*/
+	color: #201A23;
+}
+
+#triangle-topright{
+    margin: 0 auto;
+    width: 100%;
+    height: 0;    
+    padding-left:100%;
+    padding-bottom: 20%;
+    overflow: hidden;
+}
+
+#triangle-topright:after{
+	  content: "";
+	  display: block;
+      width: 0;
+      height: 0;
+	  margin-left: -1024px;
+      border-top: 35px solid #C9C2EA;
+      border-left: 1024px solid transparent;
+}
+
+/*PROJECTS*/
+section{
+	grid-area: projects;
+}
+
+.pros{
+	display: block;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.28);
+	opacity: 0.5;
+	/*filter: grayscale(100%);*/
+}
+
+.woldhuis{
+	background-color: #342E37;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	filter: none;
+	/*font styles*/
+	text-align: center;
+	font-size: 35px;
+}
+
+.fa-hammer p{
+	color: #FDFDFD;
+	font-family: roboto;
+	margin: 0;
+}
+
+.fa-hammer h4{
+	margin: 0;
+	margin-top: 2%;
+	color: #FDFDFD;
+	font-family: roboto;
+}
+
+.scribble{
+	background-image: url(../images/scribble.png);
+	background-size: cover;
+}
+
+.kaaswebsite{
+	background-image: url(../images/kaaswebsite.png);
+	background-size: cover;
+}
+
+.clock{
+	background-image: url(../images/clock.png);
+	background-size: cover;
+	background-position: center;
+}
+
+/*FOOTER*/
+footer{
+	grid-area: footer;
+}
+
+.instagram, .linkedin, .youtube, .mail{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	padding: 0;
+	text-align: center;
+	height: 55px;
+}
+.linkedin, .youtube{
+	background-color: #C9C2EA;
+}
+.grid-item i{
+	color: #FCF2C2;
+	font-size: 25px;
+	display: block;
+}
+
+@media screen and (min-width: 1024px){
+.gridcontainer{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-areas:"navigation"
+									  "header"
+									  "introduction"
+									  "projects"
+									  "footer"
+}
+
+#triangle-right{
+	display: none;
+}
+#triangle-topright{
+	display: none;
+}
+
+p, h2, h3, h4, h5{
+	margin: 0;
+}
+
+h2{
+	padding-top: 2%;
+}
+
+h5{
+	display: inline-block;
+    padding-left: 4%;
+	z-index: 10;
+}
+
+nav{
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 100%;
+	height: 55px;
+    background-color: rgba(32,26,35,0.2);
+}
+
+ul{
+	display: inline;
+	width: 50%;
+}
+
+li {
+  transition: opacity 0.2s;
+  list-style: none;
+  display: inline-block;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin: 0;
+}
+
+li a{
+	color: rgba(130,118,201,0.95);
+}
+
+li {
+  transition: opacity 0.2s;
+  list-style: none;
+  display: inline-block;
+}
+
+ul:hover li:not(:hover) {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.closebtn{
+	display: none;
+}
+
+.fa-bars{
+	display: none;
+}
+
+#js-menu{
+	margin: 0;
+	flex-flow: row;
+	justify-content: center /*flex-end*/;
+	width: 75%;
+ }
+
+ header{
+	padding: 6%;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+ }
+ 
+main{
+	margin: 15%;
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+	color: #8276C9;
+}
+
+#aboutme main{
+	margin: 2%;
+	font-weight: 400;
+    font-family: roboto;
+	font-size: 25px;
+    color: #8276C9;
+	animation: none;
+}
+
+#aboutme .aboutmebutton{
+	background: #8276C9;
+}
+
+#aboutme a .aboutmebutton{
+	color: #201A23;
+}
+
+#aboutme header{
+	display: block;
+	padding: 15%;
+	margin-top: 1%;
+	background: 
+    /* top, transparent red */ 
+    linear-gradient(
+       rgba(130,118,201,0.65), 
+       rgba(130,118,201,0.65)
+    ),
+    /* bottom, image */
+    url(../images/abtme.JPG);
+	background-size:cover;
+	background-position: center;
+}
+
+.aboutmebutton{
+	width: 300px;
+	height: 44px;
+	background: #8276C9;
+	border-radius: 40px;
+	margin-top: 3%;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.aboutmebutton:hover{
+	background-color: #FCF2C2;
+	color: #8276C9;
+	transition: 0.5s;
+}
+.aboutmebutton a, .aboutmebutton p{
+	font-size: 18px;
+	font-family: roboto;
+}
+section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.pros{
+	height: 400px;
+	width: 70%;
+}
+.pros:hover{
+	opacity: 1;
+	transition: 0.3s;
+}
+
+.kaaswebsite{
+	margin-bottom: 2%;
+}
+
+footer{
+	display: flex;
+	flex-direction: row;
+justify-content: space-between;}
+
+.instagram:hover, .linkedin:hover, .youtube:hover, .mail:hover{
+	background-color: #C9C2EA;
+	transition: 0.3s;
+}
+.instagram, .linkedin, .youtube,.mail{
+	width: 25%;
+	background-color: #201A23;
+}
+}
