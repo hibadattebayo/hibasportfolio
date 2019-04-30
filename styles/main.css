@@ -148,7 +148,17 @@ main{
 
 /*INTRODUCTION*/
 #aboutme header{
-	display: none;
+	height: 300px;
+	background: 
+    /* top, transparent red */ 
+    linear-gradient(
+       rgba(130,118,201,0.65), 
+       rgba(130,118,201,0.65)
+    ),
+    /* bottom, image */
+    url(../images/abtme.jpg);
+	background-size:cover;
+	background-position: center;
 }
 header{
 	grid-area:  introduction;
@@ -387,7 +397,7 @@ main{
        rgba(130,118,201,0.65)
     ),
     /* bottom, image */
-    url(../images/abtme.JPG);
+    url(../images/abtme.jpg);
 	background-size:cover;
 	background-position: center;
 }
