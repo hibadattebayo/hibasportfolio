@@ -246,10 +246,9 @@ footer{
 	padding: 0;
 	text-align: center;
 	height: 55px;
-}
-.linkedin, .youtube{
 	background-color: #C9C2EA;
 }
+
 .grid-item i{
 	color: #FCF2C2;
 	font-size: 25px;
