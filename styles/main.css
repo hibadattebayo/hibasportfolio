@@ -110,7 +110,7 @@ main{
 	grid-area: header;
 	/*text styles*/
 	font-family: playfair display;
-	font-weight: 700;
+	font-weight: 400;
 	font-size: 50px;
 	color: rgb(130,118,201);
 	margin: 5%;
