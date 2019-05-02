@@ -162,7 +162,7 @@ main{
 }
 header{
 	grid-area:  introduction;
-	background-color: #fafafa;
+	background-color: #FCF2C2;
 	padding: 5%;
 	padding-right: 15%;
 	/*text styles*/
