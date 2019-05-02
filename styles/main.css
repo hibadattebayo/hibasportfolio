@@ -55,7 +55,7 @@ nav{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgba(130,118,201,0.95);
+    background-color: rgba(32,26,35,0.90);
     overflow-x: hidden;
 	/*font-family: open sans;*/
     transition: 0.5s;
@@ -152,8 +152,8 @@ main{
 	background: 
     /* top, transparent red */ 
     linear-gradient(
-       rgba(300,300,300,0.65), 
-       rgba(300,300,300,0.65)
+       rgba(300,300,300,0.30), 
+       rgba(300,300,300,0.30)
     ),
     /* bottom, image */
     url(../images/abtmephone.jpg);
