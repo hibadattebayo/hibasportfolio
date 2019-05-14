@@ -32,6 +32,12 @@ h3{
 h4{
 	font-size: 13px;
 }
+h6{
+	font-size: 20px;
+	font-family: open sans;
+	font-style: italic;
+	font-weight: 200;
+}
 
 main .megif{
 	display: none;
