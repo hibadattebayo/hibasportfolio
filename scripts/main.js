@@ -17,6 +17,8 @@ var x = window.matchMedia("(min-width: 1024px)")
 click(x) // Call listener function at run time
 x.addListener(click)
 
+//if ()
+
 document.getElementsByClassName('nav-links')[0].onclick = function click() {
 	nav.style.width = "0%";
 	document.getElementsByClassName('fa-bars')[0].style.display = "inline";
