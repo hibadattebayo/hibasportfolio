@@ -456,4 +456,14 @@ justify-content: space-between;}
 	background-color: #121212;
 }
 
+.footertextdiv{
+	background-color: #121212;
+	padding: 2%;
+	padding-left: 30%;
+	padding-right: 30%;
+}
+
+.footertextdiv .footertext{
+	color: #ffd478;
+	text-align: center;
 }
