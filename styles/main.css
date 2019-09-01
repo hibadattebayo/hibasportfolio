@@ -39,7 +39,7 @@ h6{
 	font-weight: 200;
 }
 
-.footertextdiv .footertext{
+.footertext{
 	color: #ffd478;
 	text-align: center;
 }
@@ -461,10 +461,5 @@ justify-content: space-between;}
 	background-color: #121212;
 }
 
-.footertextdiv{
-	background-color: #121212;
-	padding: 2%;
-	padding-left: 30%;
-	padding-right: 30%;
-}
+
 
