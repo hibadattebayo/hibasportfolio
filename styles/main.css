@@ -344,7 +344,7 @@ ul:hover li:not(:hover) {
 main .megif{
 	display: inline;
 	position: absolute;
-    bottom: 0;
+    bottom: 75px; /*change this one to move the gif up n down*/
     right: 50px;
     width: 25%;
     z-index: -10;
