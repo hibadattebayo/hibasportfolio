@@ -215,7 +215,7 @@
     }
     
     .kobu {
-        background-image: url(../images/banner.jpg);
+        background-image: url(../images/Banner.jpg);
         background-size: cover;
         /*background-color: #342E37;
 	display: flex;
@@ -232,8 +232,8 @@
         background-size: cover;
     }
     
-    .kaaswebsite {
-        background-image: url(../images/kaaswebsite.png);
+    .hungry {
+        background-image: url(../images/hungry.png);
         background-size: cover;
     }
     
@@ -425,7 +425,7 @@
             transition: 0.3s;
             visibility: visible;
         }
-        .kaaswebsite {
+        .scribble {
             margin-bottom: 2%;
         }
         footer {
