@@ -168,7 +168,7 @@
         height: 200px;
         background: /* top, transparent red */
         linear-gradient( rgba(255, 207, 139, 0.45), rgba(255, 207, 139, 0.45)), /* bottom, image */
-        url(../images/abtme.png);
+        url(../images/mountainme.jpg);
         background-size: cover;
         background-position: center;
     }
