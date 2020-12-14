@@ -82,7 +82,7 @@
         font-family: source sans pro;
         font-weight: 900;
         ;
-        font-size: 35px;
+        font-size: 20px;
         margin-left: 5%;
     }
     
@@ -214,8 +214,8 @@
         /*filter: grayscale(100%);*/
     }
     
-    .woldhuis {
-        background-image: url(../images/tabblad.png);
+    .kobu {
+        background-image: url(../images/banner.jpg);
         background-size: cover;
         /*background-color: #342E37;
 	display: flex;
