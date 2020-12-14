@@ -41,7 +41,6 @@
     h6 {
         font-size: 20px;
         font-family: source sans pro;
-        font-style: italic;
         font-weight: 200;
     }
     
@@ -80,7 +79,9 @@
     h5 {
         display: inline-block;
         color: #ffd478;
-        font-family: anton;
+        font-family: source sans pro;
+        font-weight: 900;
+        ;
         font-size: 35px;
         margin-left: 5%;
     }
@@ -100,7 +101,8 @@
     a {
         color: #FDFDFD;
         text-decoration: none;
-        font-family: anton;
+        font-family: source sans pro;
+        font-weight: 900;
     }
     
     .fa-bars {
@@ -124,8 +126,8 @@
     main {
         grid-area: header;
         /*text styles*/
-        font-family: anton;
-        font-weight: 400;
+        font-family: source sans pro;
+        font-weight: 900;
         font-size: 50px;
         margin: 5%;
         margin-right: 15%;
