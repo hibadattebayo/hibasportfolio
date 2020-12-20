@@ -45,7 +45,7 @@
     }
     
     .footertext {
-        color: #ffd478;
+        color: #FF9D9D;
         text-align: center;
     }
     
@@ -78,7 +78,7 @@
     
     h5 {
         display: inline-block;
-        color: #ffd478;
+        color: #FF9D9D;
         font-family: source sans pro;
         font-weight: 900;
         ;
@@ -108,7 +108,7 @@
     
     .fa-bars {
         position: fixed;
-        color: #ffd478;
+        color: #FF9D9D;
         font-size: 30px;
         top: 10px;
         right: 5%;
@@ -261,7 +261,7 @@
     }
     
     .grid-item i {
-        color: #ffd478;
+        color: #FF9D9D;
         font-size: 25px;
         display: block;
     }
@@ -387,7 +387,7 @@
         .aboutmebutton {
             width: 300px;
             height: 44px;
-            background: #ffd478;
+            background: #FF9D9D;
             border-radius: 40px;
             margin-top: 3%;
             display: flex;
@@ -395,7 +395,7 @@
             align-items: center;
         }
         .aboutmebutton:hover {
-            background-color: #FCF2C2;
+            background-color: #ffcdcd;
             color: #8276C9;
             transition: 0.5s;
         }
@@ -445,6 +445,6 @@
         .youtube,
         .mail {
             width: 25%;
-            background-color: #121212;
+            background-color: #EFEFEF;
         }
     }
