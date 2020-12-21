@@ -235,6 +235,7 @@
     .hungrry {
         background-image: url(../images/hungrry.png);
         background-size: cover;
+        background-position: center;
     }
     
     .clock {
