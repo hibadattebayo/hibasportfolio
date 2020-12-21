@@ -440,7 +440,7 @@
         .linkedin:hover,
         .youtube:hover,
         .mail:hover {
-            background-color: #FCF2C2;
+            background-color: #d3d3d3;
             transition: 0.3s;
         }
         .instagram,
