@@ -336,6 +336,7 @@
         main .megif {
             display: inline;
             position: absolute;
+            top: 30px;
             bottom: 100px;
             /*change this one to move the gif up n down*/
             /*right: 50px;*/
