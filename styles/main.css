@@ -1,4 +1,4 @@
-    @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro|Roboto');
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro|Roboto|Bebas+neue');
     html {
         box-sizing: border-box;
         background-color: #f4f4f4;
@@ -78,10 +78,10 @@
     
     h5 {
         display: inline-block;
-        color: #FF9D9D;
-        font-family: source sans pro;
+        color: #121212;
+        font-family: bebas neue;
         font-weight: 900;
-        ;
+        letter-spacing: 20%;
         font-size: 20px;
         margin-left: 5%;
     }
